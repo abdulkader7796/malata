@@ -1,0 +1,929 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+   /* ==========================================================================
+  	Global Styles
+   ========================================================================== */
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:#0d141f;
+	}
+h1,h2,h3,h4,h5{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 40px;
+	}
+	
+a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+
+	}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	color:#777777;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ #wrapper{	
+ width:100%;
+ height:auto;
+ margin:0 auto;
+ }
+
+ /*.................................Navbar Area................................*/
+ #top_menu{
+ 	height:77px;
+ }
+.navbar-default{
+	background:#1e3650!important;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-bottom:none;
+	box-shadow:none;
+	border-color:transparent;
+	}
+.navbar-brand{padding-bottom:10px;}
+.navbar-default .nav li{
+	
+	display:inline;
+	}
+
+.navbar-default .nav > li > a {
+    color: #139aba;
+	margin-left:1.250em;
+	padding: 1.40em 1.0em;
+	font-size: 1.2em;
+    line-height: 1.82em;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #215078;
+    color: #fff;
+}
+.social_icon{
+	border-left:1px solid #000000;
+		border-right:1px solid #000000;
+	padding-left:0px;
+	margin-left:0.625em;
+}
+.social_icon li{
+	display:inline-block;
+	margin-left:0.625em;
+	margin-right:0.625em;
+	padding-top:0.625em;
+	padding-bottom:1.580em;
+	margin-top:1.875em;
+}
+.search {
+	padding-top:1.875em;
+	padding-bottom:1.563em;
+	padding-left:0px;
+	margin-left:0.625em;
+	border-right:1px solid #000000;
+	}
+ .fa-search, .fa-user{
+	font-size:1.250em;
+	color:#215078;
+	margin-left:0.500em;
+	padding-right:0.500em;
+		
+}
+.fa-search{
+	margin-top:10px;
+	border-left:border-left:1px solid #000000;
+	
+}
+.fa-user{
+	margin-top:10px;
+}
+.user{
+	padding-top:1.875em;
+	padding-bottom:1.563em;
+	padding-left:0px;
+	margin-left:0.625em;
+	border-right:1px solid #000000;
+}
+.social_icon li a i{
+	
+	font-size:1.25em;
+	color:#215078;
+}
+
+
+.navbar-from{
+	margin-top:1.250em;
+	  
+}
+.submit-link {
+  margin: 5px 0;
+  padding-top: 1.250em;
+  padding-left:1.250em;
+  position: relative;
+}
+
+.submit-link a {
+  background: #11aacb;
+  padding: .7em 1em;
+  min-width:100%;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+} 
+
+.submit-link a:after {
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #11aacb;
+  right: -1em;
+}
+
+
+.submit-link a:before {
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+ border-color: #ddd #ddd #ddd transparent;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  left:-1em;
+}
+
+.menu_item_2{
+	background:#215078;
+	padding:0.438em;
+	
+}
+#second_menu{
+  overflow: hidden;
+  width: 100%;
+
+}
+#second_menu .item{
+	margin-left:-1.313em;
+}
+#second_menu li{
+	list-style-type:none;
+  float: left;
+  margin: 0 .5em 0 1em;
+   width:98%;
+}
+
+
+#second_menu a{
+  background: #1e3650;
+  padding: .7em 1em;
+  width:100%;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+}
+
+
+
+#second_menu a::after{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #1e3650;
+  right: -1em;
+}
+#second_menu a::before{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+ border-color: #ddd #ddd #ddd transparent;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  left:-1em;
+}
+#second_menu li a i{
+	padding-left:0.625em;
+	padding-right:0.625em;
+	color:#11aacb;
+	font-size:1.188em
+}
+
+/*.................................main_content................................*/
+.main_content{
+	margin-top:2.250em;
+}
+.first_content{
+margin-bottom:0.625em;
+}
+.second_content{
+margin-bottom:0.625em;
+}
+.third_content{
+margin-bottom:0.625em;
+}
+.fourth_content{
+margin-bottom:0.625em;
+}
+.content_img{
+	position:relative;
+}
+.post-content {
+    background-color: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.6);
+	color: rgba(28, 36, 31, 0.6);
+    top:75%;
+    left:2%;
+    position: absolute;
+	width:40%;
+
+}
+.post-content .fa-heart-o{
+	color:#11aacb;
+	display:inline-block;
+	float:left;
+	margin-top:1.563em;
+	margin-left:10px;
+	margin-right:1.563em;
+}
+.post_text{
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding:0px;
+}
+.post-content .post_text h5 {
+	color:#000000;
+	margin-left:3.125em;
+		}
+.post-content p{
+margin-top:-1.250em;
+font-size:0.750em;
+}
+.post-content .star_icon{
+display:inline-block;
+float:right;
+margin-top:1.563em;
+margin-right:0.625em;
+}
+.fa-star{
+	color:#11aacb;
+}
+.post-content2 {
+	background-color: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.6);
+	color: rgba(28, 36, 31, 0.6);
+	top:75%;
+	left:0.875em;
+	position: absolute;
+	width:70%;
+	text-align:center;
+}
+
+.post-content2 .fa-heart-o{
+	color:#11aacb;
+	display:inline-block;
+	float:left;
+	margin-top:1.563em;
+	margin-left:0.625em;
+	margin-right:1.563em;
+}
+.post_text{
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding:0px;
+}
+.post-content2 .post_text h5 {
+		color:#000000;
+		margin-left:0.938em;
+		}
+.post-content2 p{
+	margin-top:-1.250em;
+	font-size:0.750em;
+}
+.post-content2  .star_icon{
+	display:inlin-block;
+	float:right;
+	margin-top:1.563em;
+	border-color:#11aacb;
+	margin-right:0.625em;
+}
+.content_3{
+ top:46%;
+ left:4%;
+}
+.guidebook_intro{
+	background:#11aacb;
+	text-align:center;
+	padding-bottom:6px;
+}
+.guidebook_intro a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.article{
+	background:#FFFFFF;
+	padding-top:10px;
+	padding-bottom:2px;
+	width:44.5%;
+	height:128px;
+	margin-right:5px;
+}
+.article_section{
+	margin-top:5px;
+}
+.article p{
+	color:#000000;
+	margin-left:2px;
+	padding-bottom:0px;
+}
+.article strong{
+	color:#77c3d4;
+	font-size:1.1em;
+}
+.article_grey{
+background:#dddddd;
+}
+
+/* ==========================================================================
+	Media Quries Section
+   ========================================================================== */
+/* ==========================================================================
+	Navbar
+   ========================================================================== */
+  @media (max-width:767px) and (min-width: 420px){
+	  .navbar-nav{
+		text-align:center;
+		float:none;
+	  }
+  }
+  /* ==========================================================================
+	About Section
+   ========================================================================== */
+ @media (max-width:767px) {
+	.about_section{
+		width:100%;
+	}
+	.about_section .more{
+		text-align:center;
+	}
+}
+/* ==========================================================================
+	Layerd
+   ========================================================================== */
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]--><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--Normalize.css CDN
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css.css">
+        -->
+        
+		<!-- Font awesome css-->
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<!--Front Awsome CDN 
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+        -->
+		<!--Bootstrap Css-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!--Custom Css-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body >
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<div id="wrapper">
+			<!--------start top Menu---------------->
+			<div id ="top_menu" class=" row ">
+			<div class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="container">
+					<!--------start Logo------------>
+					<div class="col-lg-2 logo">
+						<a href= "#" class="navbar-brand"><img src="images/logo.png" class="" alt="Logo"/> </a>
+					</div><!----------end Logo------>
+					<div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                             <span class="sr-only">Toggle navigation</span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                        </button>
+        			</div>
+					<div class="col-lg-10">
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<nav >
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Explore</a></li>
+								<li><a href="#">Guidebook</a></li>
+								<li><a href="#">Articles</a></li>
+								
+							</ul>
+							<ul class="navbar-nav social_icon">
+								<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+							<ul class="navbar-nav search">
+								<li><a href="#"> <i class="fa fa-search"></i></a></li>
+							</ul>
+							<ul class="navbar-nav user">
+								<li><a href="#"> <i class="fa fa-user"></i></a></li>
+							</ul>
+							<ul class="navbar-from navbar-left submit-link " role="search">
+							
+								<a type="button" href="#" value="">Submit</a>
+							</ul>
+						</nav><!--------end nav----------->
+						</div>
+					</div>
+				</div><!-------End Container-------->
+				</div>
+			</div><!-----End Top Menu-------->
+			<div class="menu_item_2">
+					<div class="container">
+						<div class="">
+							<ul id="second_menu">
+								<div class="col-md-2 col-sm-2 item">
+									<li><a href=""><i class="fa fa-map-marker"></i> Attraction</a></li>
+								</div>
+								<div class="col-md-2 col-sm-2 ">
+									<li><a href=""><i class="fa fa-ticket"></i>Fun</a></li>
+								</div>
+								<div class="col-md-2 col-sm-2 ">
+									<li><a href=""><i class="fa fa-building-o"></i>Sleep</a></li>
+								</div>
+								<div class="col-md-2 col-sm-2 ">
+									<li><a href=""><i class="fa fa-cutlery"></i>Eat</a></li>
+								</div>
+								<div class="col-md-2 col-sm-2 ">
+									<li><a href=""><i class="fa fa-road"></i>Transport</a></li>
+								</div>
+								<div class="col-md-2 col-sm-2 ">
+									<li><a href=""><i class="fa fa-calendar"></i>Events</a></li>
+								</div>
+						</ul>
+						</div>
+					</div>
+			</div><!----------end menu2------------>
+			
+				<div class="container">
+				<div class="main_content"><!-----start main content--------->
+					<div class="row first_content">
+						<div class="col-lg-8 content_img">
+							<img src="images/main-content/img-1.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-2.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+					</div>
+					<div class="row second_content">
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-3.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-4.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-5.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+					</div>
+					<div class="row third_content">
+					<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-6.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+						
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-7.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 content_img">
+							<img src="images/main-content/img-8.jpg" class="img-responsive" alt=""/>
+							 <div class="caption  post-content2 content_3">
+								<i class="fa fa-heart-o"></i>
+								<div class="post_text">
+										<h5>Dwejra Bay,</h5>
+										<p>Gozo</p>
+								</div>
+									<div class="star_icon  ">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+							  </div>
+						</div>
+					</div>
+					<div class="row fourth_content">
+						<div class="col-lg-3">
+							<img src="images/main-content/img-9.jpg" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-lg-3">
+							<div class="row">
+								<div class="col-lg-12">
+									<img src="images/main-content/img-10.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="col-lg-12">
+									<div class=" guidebook_intro">
+										<h3>Still to Fill Up Need your Input :)</h3>
+										<a href="#">Click Here</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<img src="images/main-content/img-11.jpg" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-lg-3">
+							<div class="row">
+								<div class="col-md-6 article">
+									
+										<p>Article</p>
+										<p><strong>Your bones don't break, mine do.</strong></p>
+									
+								</div>
+								<div class="col-md-6 article article_grey">
+									
+										<p>Article</p>
+										<p><strong>They called me Mr Glass.</strong></p>
+									
+								</div>
+							</div>
+							<div class="row article_section">
+								<div class="col-md-6 article article_grey">
+										<p>Article</p>
+										<p><strong>I'll kill the motherfucker, know what I'm sayin'?</strong></p>
+								</div>
+								<div class="col-md-6 article">
+										<p>Article</p>
+										<p><strong>Do you believe that shit?</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-------end Container------->
+			</div><!---------end Main content--------->
+				<!-------------Start Main Content2------------------>
+			<div class="container">
+				<div class="main_content_2">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-12">
+									<h3>Top 10 thing to do in Malata</h3>
+								</div>
+							</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<img src="images/main-content2/img-1.jpg" class="img-responsive"/>
+							</div>
+							<div class="col-lg-6">
+								<img src="images/main-content2/img-2.jpg" class="img-responsive"/>
+							</div>
+						</div>
+						<div class="row">
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-3.jpg" class="img-responsive"/>
+						</div>
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-4.jpg" class="img-responsive"/>
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-5.jpg" class="img-responsive"/>
+						</div>
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-6.jpg" class="img-responsive"/>
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-7.jpg" class="img-responsive"/>
+						</div>
+						<div class="col-lg-6">
+							<img src="images/main-content2/img-8.jpg" class="img-responsive"/>
+						</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4">
+						<div class="row">
+								<div class="col-lg-12">
+									<h3>Latest Reviwes</h3>
+								</div>
+							</div>
+						<div class="row">
+							<div class="col-lg-12">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div><!-----end Main content-2------>
+		<!------------------Start Upcoming Events----------------->
+		<div class="container">
+			<div class="upcoming_events">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3>Upcoming Events</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-1.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-2.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-3.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-4.jpg" class="img-responsive"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-5.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-6.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-7.jpg" class="img-responsive"/>
+					</div>
+					<div class="col-lg-3">
+						<img src="images/upcoming_events/img-8.jpg" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+		</div><!-------------End Upcoming Events------------------->
+			<!--------------------------Start Footer Area----------------------------->
+			<footer class="container">
+				<div id ="top_menu" class="navbar-default ">
+					<div class="row">
+							<div class="col-lg-9">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Explore</a></li>
+								<li><a href="#">Guidebook</a></li>
+								<li><a href="#">Articles</a></li>
+								
+							</ul>
+							</div>
+					<div class="col-lg-3">
+						<p class="navbar-nav">@ MaltaTOdos.com 2014</p>
+					</div>
+					</div>
+				</div><!-------End Container-------->
+			</footer><!-------------end Footer---------------------->
+		</div>
+ <!-------------------End  wrapper AREA----------------------------------------->
+       
+		
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		 <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
