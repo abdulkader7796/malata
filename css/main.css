@@ -1,0 +1,477 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+   /* ==========================================================================
+  	Global Styles
+   ========================================================================== */
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:#0d141f;
+	}
+h1,h2,h3,h4,h5{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 40px;
+	}
+	
+a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+
+	}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	color:#777777;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ #wrapper{	
+ width:100%;
+ height:auto;
+ margin:0 auto;
+ }
+
+ /*.................................Navbar Area................................*/
+ #top_menu{
+ 	height:77px;
+ }
+.navbar-default{
+	background:#1e3650!important;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-bottom:none;
+	box-shadow:none;
+	border-color:transparent;
+	}
+.navbar-brand{padding-bottom:10px;}
+.navbar-default .nav li{
+	
+	display:inline;
+	}
+
+.navbar-default .nav > li > a {
+    color: #139aba;
+	margin-left:1.250em;
+	padding: 1.40em 1.0em;
+	font-size: 1.2em;
+    line-height: 1.82em;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #215078;
+    color: #fff;
+}
+.social_icon{
+	border-left:1px solid #000000;
+		border-right:1px solid #000000;
+	padding-left:0px;
+	margin-left:0.625em;
+}
+.social_icon li{
+	display:inline-block;
+	margin-left:0.625em;
+	margin-right:0.625em;
+	padding-top:0.625em;
+	padding-bottom:1.580em;
+	margin-top:1.875em;
+}
+.search {
+	padding-top:1.875em;
+	padding-bottom:1.563em;
+	padding-left:0px;
+	margin-left:0.625em;
+	border-right:1px solid #000000;
+	}
+ .fa-search, .fa-user{
+	font-size:1.250em;
+	color:#215078;
+	margin-left:0.500em;
+	padding-right:0.500em;
+		
+}
+.fa-search{
+	margin-top:10px;
+	border-left:border-left:1px solid #000000;
+	
+}
+.fa-user{
+	margin-top:10px;
+}
+.user{
+	padding-top:1.875em;
+	padding-bottom:1.563em;
+	padding-left:0px;
+	margin-left:0.625em;
+	border-right:1px solid #000000;
+}
+.social_icon li a i{
+	
+	font-size:1.25em;
+	color:#215078;
+}
+
+
+.navbar-from{
+	margin-top:1.250em;
+	  
+}
+.submit-link {
+  margin: 5px 0;
+  padding-top: 1.250em;
+  padding-left:1.250em;
+  position: relative;
+}
+
+.submit-link a {
+  background: #11aacb;
+  padding: .7em 1em;
+  min-width:100%;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+} 
+
+.submit-link a:after {
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #11aacb;
+  right: -1em;
+}
+
+
+.submit-link a:before {
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+ border-color: #ddd #ddd #ddd transparent;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  left:-1em;
+}
+
+.menu_item_2{
+	background:#215078;
+	padding:0.438em;
+	
+}
+#second_menu{
+  overflow: hidden;
+  width: 100%;
+
+}
+#second_menu .item{
+	margin-left:-1.313em;
+}
+#second_menu li{
+	list-style-type:none;
+  float: left;
+  margin: 0 .5em 0 1em;
+   width:98%;
+}
+
+
+#second_menu a{
+  background: #1e3650;
+  padding: .7em 1em;
+  width:100%;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+}
+
+
+
+#second_menu a::after{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #1e3650;
+  right: -1em;
+}
+#second_menu a::before{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+ border-color: #ddd #ddd #ddd transparent;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  left:-1em;
+}
+#second_menu li a i{
+	padding-left:0.625em;
+	padding-right:0.625em;
+	color:#11aacb;
+	font-size:1.188em
+}
+
+/*.................................main_content................................*/
+.main_content{
+	margin-top:2.250em;
+}
+.first_content{
+margin-bottom:0.625em;
+}
+.second_content{
+margin-bottom:0.625em;
+}
+.third_content{
+margin-bottom:0.625em;
+}
+.fourth_content{
+margin-bottom:0.625em;
+}
+.content_img{
+	position:relative;
+}
+.post-content {
+    background-color: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.6);
+	color: rgba(28, 36, 31, 0.6);
+    top:75%;
+    left:2%;
+    position: absolute;
+	width:40%;
+
+}
+.post-content .fa-heart-o{
+	color:#11aacb;
+	display:inline-block;
+	float:left;
+	margin-top:1.563em;
+	margin-left:10px;
+	margin-right:1.563em;
+}
+.post_text{
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding:0px;
+}
+.post-content .post_text h5 {
+	color:#000000;
+	margin-left:3.125em;
+		}
+.post-content p{
+margin-top:-1.250em;
+font-size:0.750em;
+}
+.post-content .star_icon{
+display:inline-block;
+float:right;
+margin-top:1.563em;
+margin-right:0.625em;
+}
+.fa-star{
+	color:#11aacb;
+}
+.post-content2 {
+	background-color: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.6);
+	color: rgba(28, 36, 31, 0.6);
+	top:75%;
+	left:0.875em;
+	position: absolute;
+	width:70%;
+	text-align:center;
+}
+
+.post-content2 .fa-heart-o{
+	color:#11aacb;
+	display:inline-block;
+	float:left;
+	margin-top:1.563em;
+	margin-left:0.625em;
+	margin-right:1.563em;
+}
+.post_text{
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding:0px;
+}
+.post-content2 .post_text h5 {
+		color:#000000;
+		margin-left:0.938em;
+		}
+.post-content2 p{
+	margin-top:-1.250em;
+	font-size:0.750em;
+}
+.post-content2  .star_icon{
+	display:inlin-block;
+	float:right;
+	margin-top:1.563em;
+	border-color:#11aacb;
+	margin-right:0.625em;
+}
+.content_3{
+ top:46%;
+ left:4%;
+}
+.guidebook_intro{
+	background:#11aacb;
+	text-align:center;
+	padding-bottom:6px;
+}
+.guidebook_intro a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.article{
+	background:#FFFFFF;
+	padding-top:10px;
+	padding-bottom:2px;
+	width:44.5%;
+	height:128px;
+	margin-right:5px;
+}
+.article_section{
+	margin-top:5px;
+}
+.article p{
+	color:#000000;
+	margin-left:2px;
+	padding-bottom:0px;
+}
+.article strong{
+	color:#77c3d4;
+	font-size:1.1em;
+}
+.article_grey{
+background:#dddddd;
+}
+
+/* ==========================================================================
+	Media Quries Section
+   ========================================================================== */
+/* ==========================================================================
+	Navbar
+   ========================================================================== */
+  @media (max-width:767px) and (min-width: 420px){
+	  .navbar-nav{
+		text-align:center;
+		float:none;
+	  }
+  }
+  /* ==========================================================================
+	About Section
+   ========================================================================== */
+ @media (max-width:767px) {
+	.about_section{
+		width:100%;
+	}
+	.about_section .more{
+		text-align:center;
+	}
+}
+/* ==========================================================================
+	Layerd
+   ========================================================================== */
+
+
